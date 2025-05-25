@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/(about|tutorial-topup|faq|testi|promo)",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/:path*",
+            "destination": "/index.html"
+        }
+    ]
+}
